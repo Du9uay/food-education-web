@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/food-education-web/static/css/main.07d178fc.css",
-    "main.js": "/food-education-web/static/js/main.688a5338.js",
+    "main.css": "/food-education-web/static/css/main.bdd3f284.css",
+    "main.js": "/food-education-web/static/js/main.13716c06.js",
     "index.html": "/food-education-web/index.html",
-    "main.07d178fc.css.map": "/food-education-web/static/css/main.07d178fc.css.map",
-    "main.688a5338.js.map": "/food-education-web/static/js/main.688a5338.js.map"
+    "main.bdd3f284.css.map": "/food-education-web/static/css/main.bdd3f284.css.map",
+    "main.13716c06.js.map": "/food-education-web/static/js/main.13716c06.js.map"
   },
   "entrypoints": [
-    "static/css/main.07d178fc.css",
-    "static/js/main.688a5338.js"
+    "static/css/main.bdd3f284.css",
+    "static/js/main.13716c06.js"
   ]
 }
