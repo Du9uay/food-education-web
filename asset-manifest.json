@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/food-education-web/static/css/main.07d178fc.css",
+    "main.js": "/food-education-web/static/js/main.688a5338.js",
+    "index.html": "/food-education-web/index.html",
+    "main.07d178fc.css.map": "/food-education-web/static/css/main.07d178fc.css.map",
+    "main.688a5338.js.map": "/food-education-web/static/js/main.688a5338.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.07d178fc.css",
+    "static/js/main.688a5338.js"
+  ]
+}
