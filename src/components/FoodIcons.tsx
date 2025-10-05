@@ -157,5 +157,25 @@ export const Zap = ({ className = "w-6 h-6" }: { className?: string }) => (
   </svg>
 );
 
+export const PlayCircle = ({ className = "w-6 h-6" }: { className?: string }) => (
+  <svg className={className} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+    <circle cx="12" cy="12" r="10" strokeWidth={2} />
+    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 8L16 12L10 16V8Z" fill="currentColor" />
+  </svg>
+);
+
+export const X = ({ className = "w-6 h-6" }: { className?: string }) => (
+  <svg className={className} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+  </svg>
+);
+
+export const Play = ({ className = "w-6 h-6" }: { className?: string }) => (
+  <svg className={className} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.752 11.168l-5.197-3.029A1 1 0 008 9.03v5.939a1 1 0 001.555.832l5.197-3.03a1 1 0 000-1.664z" />
+    <circle cx="12" cy="12" r="10" strokeWidth={2} />
+  </svg>
+);
+
 // 继续使用一些通用图标，但用新的颜色系统
 export { Users, BookOpen, Award } from './Icons';

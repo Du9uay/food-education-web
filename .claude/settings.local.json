@@ -39,7 +39,16 @@
       "Bash(PORT=3003 npm start)",
       "Read(//Users/apple/Documents/cursor/Web课件/食品/**)",
       "Bash(git init:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git branch:*)",
+      "Bash(git remote:*)",
+      "Bash(git push:*)",
+      "Bash(npm run deploy:*)",
+      "Read(//Users/apple/Documents/cursor/Web课件/文旅/垂直能力提升二：商业活动策划/education_web_展会主题与品牌定位_新/src/pages/**)",
+      "Read(//Users/apple/Documents/cursor/Web课件/文旅/垂直能力提升二：商业活动策划/education_web_展会主题与品牌定位_新/src/components/**)",
+      "Read(//Users/apple/Documents/cursor/Web课件/文旅/垂直能力提升二：商业活动策划/education_web_展会主题与品牌定位_新/src/**)",
+      "Bash(awk:*)"
     ],
     "deny": [],
     "defaultMode": "acceptEdits"
