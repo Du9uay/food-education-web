@@ -133,7 +133,7 @@ const CourseNavigation: React.FC<CourseNavigationProps> = ({ className = '' }) =
             animate={{ opacity: 1, x: 0 }}
             whileHover={{ y: -4 }}
             className="group cursor-pointer"
-            onClick={() => handleNavigation(isLastChapter ? '/course-summary' : nextChapter!.path)}
+            onClick={() => handleNavigation(isLastChapter ? '/course-test' : nextChapter!.path)}
           >
             <div className="bg-white/10 backdrop-blur-lg border border-white/20 rounded-2xl p-6 transition-all duration-300 group-hover:bg-white/20">
               <div className="flex items-center gap-4">
@@ -141,10 +141,10 @@ const CourseNavigation: React.FC<CourseNavigationProps> = ({ className = '' }) =
                 <div className="flex-1 min-w-0 text-right">
                   <p className="text-sm text-slate-400 mb-1">{isLastChapter ? '前往' : '下一章'}</p>
                   <h3 className="text-lg font-semibold text-white truncate group-hover:text-emerald-300 transition-colors">
-                    {isLastChapter ? '课程总结' : nextChapter!.title}
+                    {isLastChapter ? '课堂测试' : nextChapter!.title}
                   </h3>
                   <p className="text-sm text-slate-300 truncate">
-                    {isLastChapter ? '回顾与总结所学内容' : nextChapter!.subtitle}
+                    {isLastChapter ? '使用所学内容完成测试' : nextChapter!.subtitle}
                   </p>
                 </div>
                 <div className="flex-shrink-0">
