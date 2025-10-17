@@ -1038,11 +1038,11 @@ const CourseTestPage: React.FC = () => {
         {/* 导航链接 */}
         <div className="mt-16 flex justify-between items-center">
           <button
-            onClick={() => navigate('/course-summary')}
+            onClick={() => navigate('/course/challenges-opportunities')}
             className="flex items-center space-x-2 px-6 py-3 bg-white/10 backdrop-blur-lg border border-white/20 rounded-xl text-slate-100 hover:bg-white/20 transition-all duration-300"
           >
             <Target className="w-5 h-5" />
-            <span>返回：课程总结</span>
+            <span>返回：五. 轻食行业的挑战与机遇</span>
           </button>
 
           <button
